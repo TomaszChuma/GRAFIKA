@@ -1,0 +1,285 @@
+﻿  Engine.cpp
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\Engine.cpp(93,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\Engine.cpp(93,92): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\Engine.cpp(94,35): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\Engine.cpp(94,28): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Main.cpp
+  PrimitiveRender.cpp
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(6,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(6,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(7,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(7,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(14,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(14,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(15,30): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(15,27): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(22,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(22,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(23,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(23,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(30,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(30,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(31,59): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(31,41): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(37,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(38,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(38,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(42,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(43,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(43,34): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(48,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(48,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(49,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(49,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(53,51): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(53,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(54,40): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(54,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(59,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(60,39): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(60,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(64,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(65,39): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(65,36): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(70,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(70,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(74,35): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(74,32): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(78,60): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(78,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(82,60): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(82,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(87,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(88,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(90,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(93,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(99,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(100,14): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(106,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(107,11): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(109,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(112,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(118,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\PrimitiveRender.cpp(119,14): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: float __thiscall sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QBEMXZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Clock::Clock(void)" (__imp_??0Clock@sf@@QAE@XZ) referenced in function "public: __thiscall Engine::Engine(int,int)" (??0Engine@@QAE@HH@Z)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Time __thiscall sf::Clock::restart(void)" (__imp_?restart@Clock@sf@@QAE?AVTime@2@XZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Mouse::isButtonPressed(enum sf::Mouse::Button)" (__imp_?isButtonPressed@Mouse@sf@@SA_NW4Button@12@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::Window const &)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@ABVWindow@2@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Window::close(void)" (__imp_?close@Window@sf@@QAEXXZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QBE_NXZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QAE_NAAVEvent@2@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Window::display(void)" (__imp_?display@Window@sf@@QAEXXZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QAEXMM@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> const & __thiscall sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QBEABV?$Vector2@M@2@XZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QAEXMM@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Color::Color(void)" (__imp_??0Color@sf@@QAE@XZ) referenced in function "public: __thiscall Engine::Engine(int,int)" (??0Engine@@QAE@HH@Z)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QAE@XZ) referenced in function "public: __thiscall Engine::Engine(int,int)" (??0Engine@@QAE@HH@Z)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QAE@XZ) referenced in function __unwindfunclet$??0Engine@@QAE@HH@Z$1
+Main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QAE@XZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __thiscall sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV?$Rect@H@2@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<unsigned int> __thiscall sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QBE?AV?$Vector2@I@2@XZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QAEXABVColor@2@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+PrimitiveRender.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UAE@XZ) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QAE@XZ) referenced in function "public: __thiscall Engine::Engine(int,int)" (??0Engine@@QAE@HH@Z)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QAEXABVTexture@2@_N@Z) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UAE@XZ) referenced in function __unwindfunclet$??0Engine@@QAE@HH@Z$2
+Main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UAE@XZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+PrimitiveRender.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Black" (__imp_?Black@Color@sf@@2V12@B) referenced in function "public: __thiscall Engine::Engine(int,int)" (??0Engine@@QAE@HH@Z)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Red" (__imp_?Red@Color@sf@@2V12@B) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Green" (__imp_?Green@Color@sf@@2V12@B) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Blue" (__imp_?Blue@Color@sf@@2V12@B) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+Engine.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::Yellow" (__imp_?Yellow@Color@sf@@2V12@B) referenced in function "public: int __thiscall Engine::init(void)" (?init@Engine@@QAEHXZ)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QAEXABV?$Vector2@M@2@@Z) referenced in function "public: void __thiscall PrimitiveRender::drawCircle(class sf::RenderWindow &,int,int,int)" (?drawCircle@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHH@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Vertex::Vertex(class sf::Vector2<float> const &)" (__imp_??0Vertex@sf@@QAE@ABV?$Vector2@M@1@@Z) referenced in function "public: void __thiscall PrimitiveRender::drawLine(class sf::RenderWindow &,int,int,int,int)" (?drawLine@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHHH@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Vertex::Vertex(class sf::Vector2<float> const &,class sf::Color const &)" (__imp_??0Vertex@sf@@QAE@ABV?$Vector2@M@1@ABVColor@1@@Z) referenced in function "public: void __thiscall PrimitiveRender::drawPoint(class sf::RenderWindow &,int,int,class sf::Color)" (?drawPoint@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHVColor@3@@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QAEXABVColor@2@@Z) referenced in function "public: void __thiscall PrimitiveRender::drawCircle(class sf::RenderWindow &,int,int,int,class sf::Color)" (?drawCircle@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHHVColor@3@@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::CircleShape::CircleShape(float,unsigned int)" (__imp_??0CircleShape@sf@@QAE@MI@Z) referenced in function "public: void __thiscall PrimitiveRender::drawCircle(class sf::RenderWindow &,int,int,int)" (?drawCircle@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHH@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::CircleShape::~CircleShape(void)" (__imp_??1CircleShape@sf@@UAE@XZ) referenced in function "public: void __thiscall PrimitiveRender::drawCircle(class sf::RenderWindow &,int,int,int)" (?drawCircle@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHH@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QAE@ABV?$Vector2@M@1@@Z) referenced in function "public: void __thiscall PrimitiveRender::drawRectangle(class sf::RenderWindow &,int,int,int,int)" (?drawRectangle@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHHH@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UAE@XZ) referenced in function "public: void __thiscall PrimitiveRender::drawRectangle(class sf::RenderWindow &,int,int,int,int)" (?drawRectangle@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHHH@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __thiscall sf::RenderTarget::draw(class sf::Vertex const *,unsigned int,enum sf::PrimitiveType,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QAEXPBVVertex@2@IW4PrimitiveType@2@ABVRenderStates@2@@Z) referenced in function "public: void __thiscall PrimitiveRender::drawLine(class sf::RenderWindow &,int,int,int,int)" (?drawLine@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHHH@Z)
+PrimitiveRender.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Color const sf::Color::White" (__imp_?White@Color@sf@@2V12@B) referenced in function "public: void __thiscall PrimitiveRender::drawLine(class sf::RenderWindow &,int,int,int,int)" (?drawLine@PrimitiveRender@@QAEXAAVRenderWindow@sf@@HHHH@Z)
+C:\SFMLVIS\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SFMLVIS\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SFMLVIS\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\SFMLVIS\lib\sfml-main-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Tomek\source\repos\sfmlproject\Debug\sfmlproject.exe : fatal error LNK1120: 44 unresolved externals
