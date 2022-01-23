@@ -1,7 +1,7 @@
 #include "Player.h"
 
 
-Player::Player(sf::Texture* texture, sf::Vector2u imageCount, float switchTime, float speed, float jumpHeight)
+Player::Player(sf::Texture* texture, sf::Vector2u imageCount, float switchTime, float speed, float jumpHeight){
 	this->speed = speed;
 	this->jumpHeight = jumpHeight;
 	
@@ -36,8 +36,6 @@ void Player::Update(float deltaTime)
 		canJump = false;
 		velocity.y = -sqrtf(2.0f * 9.81 * jumpHeight * 30);
 	}
-
-}
 
 	velocity.y += 981.0f * deltaTime;
 
