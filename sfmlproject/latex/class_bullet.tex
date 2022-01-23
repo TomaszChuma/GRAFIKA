@@ -1,0 +1,71 @@
+\hypertarget{class_bullet}{}\doxysection{Bullet Class Reference}
+\label{class_bullet}\index{Bullet@{Bullet}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bullet_a220f515c0847ee79db8f3914b9cc6c73}\label{class_bullet_a220f515c0847ee79db8f3914b9cc6c73}} 
+{\bfseries Bullet} (sf\+::\+Texture $\ast$texture, \mbox{\hyperlink{class_player}{Player}} $\ast$player, float speed)
+\item 
+void \mbox{\hyperlink{class_bullet_adde505cb7739b0a6de1a64783d354107}{Update}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_bullet_a5ce2ff7bf70508a7a1435f2311fbaedc}{Draw}} (sf\+::\+Render\+Window \&window)
+\item 
+void \mbox{\hyperlink{class_bullet_a63bf77c678965bbba64361561d05d6ef}{Set\+Position}} ()
+\item 
+int \mbox{\hyperlink{class_bullet_af1d22fe4dcffb79116e0e99905110730}{get\+BulletX}} ()
+\item 
+\mbox{\hyperlink{class_collider}{Collider}} \mbox{\hyperlink{class_bullet_a1af3ac727f54d34d7ff87da9d4d7d6b2}{Get\+Collider}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bullet_a5ce2ff7bf70508a7a1435f2311fbaedc}\label{class_bullet_a5ce2ff7bf70508a7a1435f2311fbaedc}} 
+\index{Bullet@{Bullet}!Draw@{Draw}}
+\index{Draw@{Draw}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Bullet\+::\+Draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+Rysowanie pocisku
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & okno gry \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_bullet_af1d22fe4dcffb79116e0e99905110730}\label{class_bullet_af1d22fe4dcffb79116e0e99905110730}} 
+\index{Bullet@{Bullet}!getBulletX@{getBulletX}}
+\index{getBulletX@{getBulletX}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{getBulletX()}{getBulletX()}}
+{\footnotesize\ttfamily int Bullet\+::get\+BulletX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Zwracanie wspó³rzêdnej x pocisku \mbox{\Hypertarget{class_bullet_a1af3ac727f54d34d7ff87da9d4d7d6b2}\label{class_bullet_a1af3ac727f54d34d7ff87da9d4d7d6b2}} 
+\index{Bullet@{Bullet}!GetCollider@{GetCollider}}
+\index{GetCollider@{GetCollider}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{GetCollider()}{GetCollider()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_collider}{Collider}} Bullet\+::\+Get\+Collider (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Kolizja pocisku z innymi obiektami \mbox{\Hypertarget{class_bullet_a63bf77c678965bbba64361561d05d6ef}\label{class_bullet_a63bf77c678965bbba64361561d05d6ef}} 
+\index{Bullet@{Bullet}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Bullet\+::\+Set\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Aktualizacja pozycji pocisku w niektórych przypadkach \mbox{\Hypertarget{class_bullet_adde505cb7739b0a6de1a64783d354107}\label{class_bullet_adde505cb7739b0a6de1a64783d354107}} 
+\index{Bullet@{Bullet}!Update@{Update}}
+\index{Update@{Update}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Bullet\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+Aktualizacja pozycji pocisku w zale¿noœci od delta\+Time
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & kierunek w którym zachodzi kolizja \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Bullet.\+h\item 
+Bullet.\+cpp\end{DoxyCompactItemize}

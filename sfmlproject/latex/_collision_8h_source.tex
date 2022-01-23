@@ -1,0 +1,23 @@
+\hypertarget{_collision_8h_source}{}\doxysection{Collision.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{3 \textcolor{keyword}{class }\mbox{\hyperlink{class_collider}{Collider}}}
+\DoxyCodeLine{4 \{}
+\DoxyCodeLine{5 \textcolor{keyword}{public}:}
+\DoxyCodeLine{6     \mbox{\hyperlink{class_collider}{Collider}}(sf::RectangleShape\& body);}
+\DoxyCodeLine{7     \mbox{\hyperlink{class_collider}{\string~Collider}}();}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{10     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_collider_a4da64b55d477c31bd71f170cb2a712e9}{Move}}(\textcolor{keywordtype}{float} dx, \textcolor{keywordtype}{float} dy) \{ body.move(dx, dy); \}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{23     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_collider_a005c69d102c562309a799a32401bd07b}{CheckCollision}}(\mbox{\hyperlink{class_collider}{Collider}} other, sf::Vector2f\& direction, \textcolor{keywordtype}{float} push);}
+\DoxyCodeLine{25     sf::Vector2f \mbox{\hyperlink{class_collider_a62c34befea96aa31bc6a52d7f0c411c5}{GetPosition}}() \{ \textcolor{keywordflow}{return} body.getPosition(); \}}
+\DoxyCodeLine{27     sf::Vector2f \mbox{\hyperlink{class_collider_aff2276b879027ea468dc208101ae858e}{GetHalfSize}}() \{ \textcolor{keywordflow}{return} body.getSize() / 2.0f; \}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{keyword}{private}:}
+\DoxyCodeLine{30     sf::RectangleShape\& body;\textcolor{comment}{//cia³o obiektu}}
+\DoxyCodeLine{31 \};}
+\DoxyCodeLine{32 }
+
+\end{DoxyCode}

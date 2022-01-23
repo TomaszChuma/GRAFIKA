@@ -1,12 +1,14 @@
 #include "Enemy.h"
+#include <iostream>
 
-Enemy::Enemy(sf::Texture* texture, float speed)
+Enemy::Enemy(sf::Texture* texture, float speed, sf::Vector2f size, sf::Vector2f position, int type)
 {
 	this->speed = speed;
+	this->type = type;
 
-	body.setSize(sf::Vector2f(120.0f, 120.0f));
-	body.setOrigin(body.getSize() / 2.0f);
-	body.setPosition(1000.0f, 1000.0f);
+	body.setSize(size);
+	body.setOrigin(size / 2.0f);
+	body.setPosition(position);
 	body.setTexture(texture);
 }
 
@@ -14,21 +16,49 @@ Enemy::~Enemy()
 {
 }
 
+
+
 void Enemy::Update(float deltaTime, Player* player)
 {
+	if (type == 1) {
+		if (body.getPosition().y > player->GetPosition().y)
+		{
+			velocity.y = -speed;
+		}
 
-	if (body.getPosition().x < player->GetPosition().x)
-	{
-		//velocity.x += speed;
+		if (body.getPosition().y < player->GetPosition().y)
+		{
+			velocity.y = speed;
+		}
+
+		if (body.getPosition().x < player->GetPosition().x)
+		{
+			velocity.x = speed;
+		}
+
+		if (body.getPosition().x > player->GetPosition().x)
+		{
+			velocity.x = -speed;
+		}
 	}
 
-	else if (body.getPosition().x > player->GetPosition().x)
-	{
-		//velocity.x -= speed;
+	if (type == 2) {
+		if (body.getPosition().x < player->GetPosition().x)
+		{
+			velocity.x += speed;
+		}
+
+		if (body.getPosition().x > player->GetPosition().x)
+		{
+			velocity.x -= speed;
+		}
 	}
 
 
-	velocity.y += 981.0f * deltaTime;
+
+
+
+	//velocity.y += 981.0f * deltaTime;
 
 	body.move(velocity * deltaTime);
 }

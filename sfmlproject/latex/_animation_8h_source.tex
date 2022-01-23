@@ -1,0 +1,27 @@
+\hypertarget{_animation_8h_source}{}\doxysection{Animation.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <SFML\(\backslash\)Graphics.hpp>}}
+\DoxyCodeLine{3 \textcolor{keyword}{class }\mbox{\hyperlink{class_animation}{Animation}}}
+\DoxyCodeLine{4 \{}
+\DoxyCodeLine{5 \textcolor{keyword}{public}:}
+\DoxyCodeLine{6     \mbox{\hyperlink{class_animation}{Animation}}(sf::Texture* texture, sf::Vector2u imageCount, \textcolor{keywordtype}{float} switchTime);}
+\DoxyCodeLine{7     \mbox{\hyperlink{class_animation}{\string~Animation}}();}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9     \textcolor{keywordtype}{void} Update(\textcolor{keywordtype}{int} row, \textcolor{keywordtype}{float} deltaTime, \textcolor{keywordtype}{bool} faceRight);}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{public}:}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13     sf::IntRect uvRect;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15 \textcolor{keyword}{private}:}
+\DoxyCodeLine{16     sf::Vector2u imageCount;}
+\DoxyCodeLine{17     sf::Vector2u currentImage;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19     \textcolor{keywordtype}{float} totalTime;}
+\DoxyCodeLine{20     \textcolor{keywordtype}{float} switchTime;}
+\DoxyCodeLine{21 \};}
+\DoxyCodeLine{22 }
+
+\end{DoxyCode}

@@ -1,0 +1,60 @@
+\hypertarget{class_collider}{}\doxysection{Collider Class Reference}
+\label{class_collider}\index{Collider@{Collider}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_collider_ab9849daa20222ab71134dde43abc573d}\label{class_collider_ab9849daa20222ab71134dde43abc573d}} 
+{\bfseries Collider} (sf\+::\+Rectangle\+Shape \&body)
+\item 
+void \mbox{\hyperlink{class_collider_a4da64b55d477c31bd71f170cb2a712e9}{Move}} (float dx, float dy)
+\item 
+bool \mbox{\hyperlink{class_collider_a005c69d102c562309a799a32401bd07b}{Check\+Collision}} (\mbox{\hyperlink{class_collider}{Collider}} other, sf\+::\+Vector2f \&direction, float push)
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_collider_a62c34befea96aa31bc6a52d7f0c411c5}{Get\+Position}} ()
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_collider_aff2276b879027ea468dc208101ae858e}{Get\+Half\+Size}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_collider_a005c69d102c562309a799a32401bd07b}\label{class_collider_a005c69d102c562309a799a32401bd07b}} 
+\index{Collider@{Collider}!CheckCollision@{CheckCollision}}
+\index{CheckCollision@{CheckCollision}!Collider@{Collider}}
+\doxysubsubsection{\texorpdfstring{CheckCollision()}{CheckCollision()}}
+{\footnotesize\ttfamily bool Collider\+::\+Check\+Collision (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_collider}{Collider}}}]{other,  }\item[{sf\+::\+Vector2f \&}]{direction,  }\item[{float}]{push }\end{DoxyParamCaption})}
+
+Sprawdzanie czy zachodzi kolizja miêdzy obiektami
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & obiekt z którym zachodzi kolizja\\
+\hline
+{\em direction} & kierunek w którym zachodzi kolizja\\
+\hline
+{\em push} & wartoœæ przesuniêcia obiektu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_collider_aff2276b879027ea468dc208101ae858e}\label{class_collider_aff2276b879027ea468dc208101ae858e}} 
+\index{Collider@{Collider}!GetHalfSize@{GetHalfSize}}
+\index{GetHalfSize@{GetHalfSize}!Collider@{Collider}}
+\doxysubsubsection{\texorpdfstring{GetHalfSize()}{GetHalfSize()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Collider\+::\+Get\+Half\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Pobranie wielkoœci obiektu \mbox{\Hypertarget{class_collider_a62c34befea96aa31bc6a52d7f0c411c5}\label{class_collider_a62c34befea96aa31bc6a52d7f0c411c5}} 
+\index{Collider@{Collider}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Collider@{Collider}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Collider\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Pobranie aktualnych wspó³rzêdnych obiektu \mbox{\Hypertarget{class_collider_a4da64b55d477c31bd71f170cb2a712e9}\label{class_collider_a4da64b55d477c31bd71f170cb2a712e9}} 
+\index{Collider@{Collider}!Move@{Move}}
+\index{Move@{Move}!Collider@{Collider}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Collider\+::\+Move (\begin{DoxyParamCaption}\item[{float}]{dx,  }\item[{float}]{dy }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Przesuwanie obiektu z którym zachodzi kolizja 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Collision.\+h\item 
+Collision.\+cpp\end{DoxyCompactItemize}

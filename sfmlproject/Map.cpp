@@ -2,7 +2,7 @@
 
 Map::Map(sf::Texture* texture, sf::Vector2f position)
 {
-	body.setSize(sf::Vector2f(1920.0f, 1080.0f));
+	body.setSize(sf::Vector2f(2100.0f, 1200.0f));
 	body.setPosition(position);
 	body.setTexture(texture);
 

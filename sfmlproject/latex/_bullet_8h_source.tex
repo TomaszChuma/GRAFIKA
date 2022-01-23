@@ -1,0 +1,31 @@
+\hypertarget{_bullet_8h_source}{}\doxysection{Bullet.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Player.h"{}}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{class }\mbox{\hyperlink{class_bullet}{Bullet}} \{}
+\DoxyCodeLine{7 \textcolor{keyword}{public}:}
+\DoxyCodeLine{8     \mbox{\hyperlink{class_bullet}{Bullet}}(sf::Texture* texture, \mbox{\hyperlink{class_player}{Player}}* player, \textcolor{keywordtype}{float} speed);}
+\DoxyCodeLine{9     \mbox{\hyperlink{class_bullet}{\string~Bullet}}();}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{16     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_adde505cb7739b0a6de1a64783d354107}{Update}}(\textcolor{keywordtype}{float} deltaTime);}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_a5ce2ff7bf70508a7a1435f2311fbaedc}{Draw}}(sf::RenderWindow\& window);}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_bullet_a63bf77c678965bbba64361561d05d6ef}{SetPosition}}() \{ body.setPosition(1234.0f, 1234.0f); \}}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{29     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_bullet_af1d22fe4dcffb79116e0e99905110730}{getBulletX}}() \{ body.getPosition().x; \}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{32     \mbox{\hyperlink{class_collider}{Collider}} \mbox{\hyperlink{class_bullet_a1af3ac727f54d34d7ff87da9d4d7d6b2}{GetCollider}}() \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_collider}{Collider}}(body); \}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{keyword}{private}:}
+\DoxyCodeLine{35     sf::RectangleShape body; \textcolor{comment}{//cia³o pocisku}}
+\DoxyCodeLine{36     sf::Vector2f velocity; \textcolor{comment}{//prêdkoœæ pocisku wektorowo}}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38     \textcolor{keywordtype}{float} speed;\textcolor{comment}{//prêdkoœæ pocisku}}
+\DoxyCodeLine{39 \};}
+
+\end{DoxyCode}

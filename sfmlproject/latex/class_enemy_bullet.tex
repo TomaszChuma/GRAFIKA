@@ -1,0 +1,71 @@
+\hypertarget{class_enemy_bullet}{}\doxysection{Enemy\+Bullet Class Reference}
+\label{class_enemy_bullet}\index{EnemyBullet@{EnemyBullet}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_enemy_bullet_a93b3ba3a2d754d7f9b37fc4f46beadd5}\label{class_enemy_bullet_a93b3ba3a2d754d7f9b37fc4f46beadd5}} 
+{\bfseries Enemy\+Bullet} (sf\+::\+Texture $\ast$texture, \mbox{\hyperlink{class_enemy}{Enemy}} $\ast$enemy, float speed)
+\item 
+void \mbox{\hyperlink{class_enemy_bullet_a664c526f3df3b321753715f2a00c8e60}{Update}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_enemy_bullet_a29be7c666187f69e2ee8108bfcfa906a}{Draw}} (sf\+::\+Render\+Window \&window)
+\item 
+void \mbox{\hyperlink{class_enemy_bullet_a394b5a3b1364cb7f744f76f090b5481b}{Set\+Position}} ()
+\item 
+int \mbox{\hyperlink{class_enemy_bullet_a19795df53b53ec549b6945d203c9951e}{get\+BulletX}} ()
+\item 
+\mbox{\hyperlink{class_collider}{Collider}} \mbox{\hyperlink{class_enemy_bullet_a6db6950d10059fbc52e01d46340d0050}{Get\+Collider}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enemy_bullet_a29be7c666187f69e2ee8108bfcfa906a}\label{class_enemy_bullet_a29be7c666187f69e2ee8108bfcfa906a}} 
+\index{EnemyBullet@{EnemyBullet}!Draw@{Draw}}
+\index{Draw@{Draw}!EnemyBullet@{EnemyBullet}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Enemy\+Bullet\+::\+Draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+Rysowanie pocisku
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & okno gry \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemy_bullet_a19795df53b53ec549b6945d203c9951e}\label{class_enemy_bullet_a19795df53b53ec549b6945d203c9951e}} 
+\index{EnemyBullet@{EnemyBullet}!getBulletX@{getBulletX}}
+\index{getBulletX@{getBulletX}!EnemyBullet@{EnemyBullet}}
+\doxysubsubsection{\texorpdfstring{getBulletX()}{getBulletX()}}
+{\footnotesize\ttfamily int Enemy\+Bullet\+::get\+BulletX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Zwracanie wspó³rzêdnej x pocisku \mbox{\Hypertarget{class_enemy_bullet_a6db6950d10059fbc52e01d46340d0050}\label{class_enemy_bullet_a6db6950d10059fbc52e01d46340d0050}} 
+\index{EnemyBullet@{EnemyBullet}!GetCollider@{GetCollider}}
+\index{GetCollider@{GetCollider}!EnemyBullet@{EnemyBullet}}
+\doxysubsubsection{\texorpdfstring{GetCollider()}{GetCollider()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_collider}{Collider}} Enemy\+Bullet\+::\+Get\+Collider (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Kolizja pocisku z innymi obiektami \mbox{\Hypertarget{class_enemy_bullet_a394b5a3b1364cb7f744f76f090b5481b}\label{class_enemy_bullet_a394b5a3b1364cb7f744f76f090b5481b}} 
+\index{EnemyBullet@{EnemyBullet}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!EnemyBullet@{EnemyBullet}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Enemy\+Bullet\+::\+Set\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Aktualizacja pozycji pocisku w niektórych przypadkach \mbox{\Hypertarget{class_enemy_bullet_a664c526f3df3b321753715f2a00c8e60}\label{class_enemy_bullet_a664c526f3df3b321753715f2a00c8e60}} 
+\index{EnemyBullet@{EnemyBullet}!Update@{Update}}
+\index{Update@{Update}!EnemyBullet@{EnemyBullet}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Enemy\+Bullet\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+Aktualizacja pozycji pocisku w zale¿noœci od delta\+Time
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & delta\+Time \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Enemy\+Bullet.\+h\item 
+Enemy\+Bullet.\+cpp\end{DoxyCompactItemize}

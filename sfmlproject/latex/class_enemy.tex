@@ -1,0 +1,86 @@
+\hypertarget{class_enemy}{}\doxysection{Enemy Class Reference}
+\label{class_enemy}\index{Enemy@{Enemy}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_enemy_a6b08366e89313ae5edb7b269f8ac2277}\label{class_enemy_a6b08366e89313ae5edb7b269f8ac2277}} 
+{\bfseries Enemy} (sf\+::\+Texture $\ast$texture, float speed, sf\+::\+Vector2f size, sf\+::\+Vector2f position, int type)
+\item 
+void \mbox{\hyperlink{class_enemy_a4bd7fff2425dd5db40862ef3fac752d9}{Update}} (float delta\+Time, \mbox{\hyperlink{class_player}{Player}} $\ast$player)
+\item 
+void \mbox{\hyperlink{class_enemy_a4c56b4deb278d2bcbc5a1d8dd30c5c2c}{Draw}} (sf\+::\+Render\+Window \&window)
+\item 
+void \mbox{\hyperlink{class_enemy_a9eb4479e3018e6e13d6d6bd34794aa55}{On\+Collision}} (sf\+::\+Vector2f direction)
+\item 
+void \mbox{\hyperlink{class_enemy_a10733791b393d02338046b2fa56cb65b}{Set\+Position}} ()
+\item 
+sf\+::\+Vector2f \mbox{\hyperlink{class_enemy_aad52d4235c9450218a108da9700b017e}{Get\+Position}} ()
+\item 
+\mbox{\hyperlink{class_collider}{Collider}} \mbox{\hyperlink{class_enemy_a7f32e673fb6fd7ad0f57c0fa35f1c453}{Get\+Collider}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enemy_a4c56b4deb278d2bcbc5a1d8dd30c5c2c}\label{class_enemy_a4c56b4deb278d2bcbc5a1d8dd30c5c2c}} 
+\index{Enemy@{Enemy}!Draw@{Draw}}
+\index{Draw@{Draw}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Enemy\+::\+Draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+Rysowanie rywala
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & okno gry \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemy_a7f32e673fb6fd7ad0f57c0fa35f1c453}\label{class_enemy_a7f32e673fb6fd7ad0f57c0fa35f1c453}} 
+\index{Enemy@{Enemy}!GetCollider@{GetCollider}}
+\index{GetCollider@{GetCollider}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{GetCollider()}{GetCollider()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_collider}{Collider}} Enemy\+::\+Get\+Collider (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Kolizja z innymi obiektami \mbox{\Hypertarget{class_enemy_aad52d4235c9450218a108da9700b017e}\label{class_enemy_aad52d4235c9450218a108da9700b017e}} 
+\index{Enemy@{Enemy}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily sf\+::\+Vector2f Enemy\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Pobranie aktualnych wspó³rzêdnych \mbox{\Hypertarget{class_enemy_a9eb4479e3018e6e13d6d6bd34794aa55}\label{class_enemy_a9eb4479e3018e6e13d6d6bd34794aa55}} 
+\index{Enemy@{Enemy}!OnCollision@{OnCollision}}
+\index{OnCollision@{OnCollision}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{OnCollision()}{OnCollision()}}
+{\footnotesize\ttfamily void Enemy\+::\+On\+Collision (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{direction }\end{DoxyParamCaption})}
+
+Funkcja odpowiadaj¹ca za zachowanie obiektu w przypadku wyst¹pienia kolizji 
+\begin{DoxyParams}{Parameters}
+{\em direction} & kierunek w którym dziala kolizja \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemy_a10733791b393d02338046b2fa56cb65b}\label{class_enemy_a10733791b393d02338046b2fa56cb65b}} 
+\index{Enemy@{Enemy}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Enemy\+::\+Set\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Ustawienie pozycji \mbox{\Hypertarget{class_enemy_a4bd7fff2425dd5db40862ef3fac752d9}\label{class_enemy_a4bd7fff2425dd5db40862ef3fac752d9}} 
+\index{Enemy@{Enemy}!Update@{Update}}
+\index{Update@{Update}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Enemy\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time,  }\item[{\mbox{\hyperlink{class_player}{Player}} $\ast$}]{player }\end{DoxyParamCaption})}
+
+Aktualizacja pozycji rywala
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & \\
+\hline
+{\em player} & obiekt gracza \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Enemy.\+h\item 
+Enemy.\+cpp\end{DoxyCompactItemize}

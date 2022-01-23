@@ -1,0 +1,10 @@
+<map id="Engine::Collisions" name="Engine::Collisions">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,132,159"/>
+<area shape="rect" id="node2" href="$class_collider.html#a005c69d102c562309a799a32401bd07b" title=" " alt="" coords="180,56,339,83"/>
+<area shape="rect" id="node6" href="$class_enemy.html#a7f32e673fb6fd7ad0f57c0fa35f1c453" title=" " alt="" coords="192,107,327,133"/>
+<area shape="rect" id="node7" href="$class_player.html#a0b19f4f3bd88d173c595f22e05aca264" title=" " alt="" coords="194,157,325,184"/>
+<area shape="rect" id="node8" href="$class_player.html#a07a06370f180cb06d901d0e1b563b8d1" title=" " alt="" coords="193,208,326,235"/>
+<area shape="rect" id="node3" href="$class_collider.html#aff2276b879027ea468dc208101ae858e" title=" " alt="" coords="387,5,529,32"/>
+<area shape="rect" id="node4" href="$class_collider.html#a62c34befea96aa31bc6a52d7f0c411c5" title=" " alt="" coords="387,56,529,83"/>
+<area shape="rect" id="node5" href="$class_collider.html#a4da64b55d477c31bd71f170cb2a712e9" title=" " alt="" coords="407,107,509,133"/>
+</map>

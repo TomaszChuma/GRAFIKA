@@ -1,4 +1,4 @@
-﻿  Main.cpp
-C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\Main.cpp(31,48): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
-C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\Main.cpp(31,40): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+﻿  Engine.cpp
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\Engine.cpp(26,48): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+C:\Users\Tomek\source\repos\sfmlproject\sfmlproject\Engine.cpp(26,40): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
   sfmlproject.vcxproj -> C:\Users\Tomek\source\repos\sfmlproject\x64\Debug\sfmlproject.exe

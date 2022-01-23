@@ -1,0 +1,64 @@
+\hypertarget{_primitive_render_8h_source}{}\doxysection{Primitive\+Render.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <SFML/Graphics/RenderWindow.hpp>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <cmath>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{class }\mbox{\hyperlink{class_point2_d}{Point2D}} \{}
+\DoxyCodeLine{7     \textcolor{keywordtype}{int} x, y;}
+\DoxyCodeLine{8 \textcolor{keyword}{public}:}
+\DoxyCodeLine{9     \mbox{\hyperlink{class_point2_d}{Point2D}}(\textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{10     \mbox{\hyperlink{class_point2_d}{Point2D}}();}
+\DoxyCodeLine{11     \textcolor{keywordtype}{int} getX();}
+\DoxyCodeLine{12     \textcolor{keywordtype}{int} getY();}
+\DoxyCodeLine{13     \textcolor{keywordtype}{void} changeX(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{14     \textcolor{keywordtype}{void} changeY(\textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{15 \};}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_line_segment}{LineSegment}} \{}
+\DoxyCodeLine{18     \mbox{\hyperlink{class_point2_d}{Point2D}} point1, point2;}
+\DoxyCodeLine{19 \textcolor{keyword}{public}:}
+\DoxyCodeLine{20     \mbox{\hyperlink{class_line_segment}{LineSegment}}();}
+\DoxyCodeLine{21     \mbox{\hyperlink{class_line_segment}{LineSegment}}(\mbox{\hyperlink{class_point2_d}{Point2D}} point1, \mbox{\hyperlink{class_point2_d}{Point2D}} point2);}
+\DoxyCodeLine{22     \mbox{\hyperlink{class_line_segment}{LineSegment}}(\textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y1, \textcolor{keywordtype}{int} x2, \textcolor{keywordtype}{int} y2);}
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} changePoint1(\mbox{\hyperlink{class_point2_d}{Point2D}} point1);}
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} changePoint2(\mbox{\hyperlink{class_point2_d}{Point2D}} point2);}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} changePoint1(\textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y1);}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} changePoint2(\textcolor{keywordtype}{int} x2, \textcolor{keywordtype}{int} y2);}
+\DoxyCodeLine{27     \textcolor{keywordtype}{int} getPoint1X();}
+\DoxyCodeLine{28     \textcolor{keywordtype}{int} getPoint1Y();}
+\DoxyCodeLine{29     \textcolor{keywordtype}{int} getPoint2X();}
+\DoxyCodeLine{30     \textcolor{keywordtype}{int} getPoint2Y();}
+\DoxyCodeLine{31 \};}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{keyword}{class }\mbox{\hyperlink{class_primitive_render}{PrimitiveRender}}}
+\DoxyCodeLine{36 \{}
+\DoxyCodeLine{37 \textcolor{keyword}{public}:}
+\DoxyCodeLine{38     \textcolor{keywordtype}{void} drawLine(sf::RenderWindow\& window, \textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y1, \textcolor{keywordtype}{int} x2, \textcolor{keywordtype}{int} y2); \textcolor{comment}{//the default color is white}}
+\DoxyCodeLine{39     \textcolor{keywordtype}{void} drawLine(sf::RenderWindow\& window, \textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y1, \textcolor{keywordtype}{int} x2, \textcolor{keywordtype}{int} y2, sf::Color color);}
+\DoxyCodeLine{40     \textcolor{keywordtype}{void} drawLine(sf::RenderWindow\& window, \mbox{\hyperlink{class_line_segment}{LineSegment}} line);}
+\DoxyCodeLine{41     \textcolor{keywordtype}{void} drawLine(sf::RenderWindow\& window, \mbox{\hyperlink{class_line_segment}{LineSegment}} line, sf::Color color);}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} drawCircle(sf::RenderWindow\& window, \textcolor{keywordtype}{int} size, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{43     \textcolor{keywordtype}{void} drawCircle(sf::RenderWindow\& window, \textcolor{keywordtype}{int} size, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, sf::Color color);}
+\DoxyCodeLine{44     \textcolor{keywordtype}{void} drawRectangle(sf::RenderWindow\& window, \textcolor{keywordtype}{int} sizeX, \textcolor{keywordtype}{int} sizeY, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{45     \textcolor{keywordtype}{void} drawRectangle(sf::RenderWindow\& window, \textcolor{keywordtype}{int} sizeX, \textcolor{keywordtype}{int} sizeY, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, sf::Color color);}
+\DoxyCodeLine{46     \textcolor{keywordtype}{void} drawTriangle(sf::RenderWindow\& window, \textcolor{keywordtype}{int} size, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} drawTriangle(sf::RenderWindow\& window, \textcolor{keywordtype}{int} size, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, sf::Color color);}
+\DoxyCodeLine{48     \textcolor{keywordtype}{void} drawPoint(sf::RenderWindow\& window, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y);}
+\DoxyCodeLine{49     \textcolor{keywordtype}{void} drawPoint(sf::RenderWindow\& window, \textcolor{keywordtype}{int} x, \textcolor{keywordtype}{int} y, sf::Color color);}
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} drawPoint(sf::RenderWindow\& window, \mbox{\hyperlink{class_point2_d}{Point2D}} point2D);}
+\DoxyCodeLine{51     \textcolor{keywordtype}{void} drawPoint(sf::RenderWindow\& window, \mbox{\hyperlink{class_point2_d}{Point2D}} point2D, sf::Color color);}
+\DoxyCodeLine{52     \textcolor{keywordtype}{void} incrementalAlghorithm(sf::RenderWindow\& window, \textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y1, \textcolor{keywordtype}{int} x2, \textcolor{keywordtype}{int} y2);}
+\DoxyCodeLine{53     \textcolor{keywordtype}{void} incrementalAlghorithm(sf::RenderWindow\& window, \textcolor{keywordtype}{int} x1, \textcolor{keywordtype}{int} y1, \textcolor{keywordtype}{int} x2, \textcolor{keywordtype}{int} y2, sf::Color color);}
+\DoxyCodeLine{54     \textcolor{keywordtype}{void} drawPolyline(sf::RenderWindow\& window, std::vector<LineSegment> lineVector);}
+\DoxyCodeLine{55 \};}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 }
+
+\end{DoxyCode}

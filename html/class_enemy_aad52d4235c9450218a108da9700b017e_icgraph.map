@@ -1,0 +1,4 @@
+<map id="Enemy::GetPosition" name="Enemy::GetPosition">
+<area shape="rect" id="node1" title=" " alt="" coords="232,5,371,32"/>
+<area shape="rect" id="node2" href="$class_enemy_bullet.html#a93b3ba3a2d754d7f9b37fc4f46beadd5" title=" " alt="" coords="5,5,184,32"/>
+</map>

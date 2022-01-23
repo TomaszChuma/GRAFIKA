@@ -1,0 +1,29 @@
+\hypertarget{_enemy_bullet_8h_source}{}\doxysection{Enemy\+Bullet.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Enemy.h"{}}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{keyword}{class }\mbox{\hyperlink{class_enemy_bullet}{EnemyBullet}} \{}
+\DoxyCodeLine{7 \textcolor{keyword}{public}:}
+\DoxyCodeLine{8     \mbox{\hyperlink{class_enemy_bullet}{EnemyBullet}}(sf::Texture* texture, \mbox{\hyperlink{class_enemy}{Enemy}}* enemy, \textcolor{keywordtype}{float} speed);}
+\DoxyCodeLine{9     \mbox{\hyperlink{class_enemy_bullet}{\string~EnemyBullet}}();}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{16     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_enemy_bullet_a664c526f3df3b321753715f2a00c8e60}{Update}}(\textcolor{keywordtype}{float} deltaTime);}
+\DoxyCodeLine{22     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_enemy_bullet_a29be7c666187f69e2ee8108bfcfa906a}{Draw}}(sf::RenderWindow\& window);}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_enemy_bullet_a394b5a3b1364cb7f744f76f090b5481b}{SetPosition}}() \{ body.setPosition(-\/1234.0f, -\/1234.0f); \}}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{28     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_enemy_bullet_a19795df53b53ec549b6945d203c9951e}{getBulletX}}() \{ body.getPosition().x; \}}
+\DoxyCodeLine{30     \mbox{\hyperlink{class_collider}{Collider}} \mbox{\hyperlink{class_enemy_bullet_a6db6950d10059fbc52e01d46340d0050}{GetCollider}}() \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_collider}{Collider}}(body); \}}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \textcolor{keyword}{private}:}
+\DoxyCodeLine{33     sf::RectangleShape body;\textcolor{comment}{//cia³o pocisku}}
+\DoxyCodeLine{34     sf::Vector2f velocity;\textcolor{comment}{//prêdkoœæ pocisku wektorowo}}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36     \textcolor{keywordtype}{float} speed;\textcolor{comment}{//prêdkoœæ pocisku}}
+\DoxyCodeLine{37 \};}
+
+\end{DoxyCode}

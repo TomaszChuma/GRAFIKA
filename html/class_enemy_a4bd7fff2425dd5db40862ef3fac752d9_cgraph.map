@@ -1,0 +1,4 @@
+<map id="Enemy::Update" name="Enemy::Update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node2" href="$class_player.html#aaed2801fda29def04633d24e4271edc0" title=" " alt="" coords="165,5,300,32"/>
+</map>

@@ -1,0 +1,22 @@
+\hypertarget{_platform_8h_source}{}\doxysection{Platform.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}Collision.h"{}}}
+\DoxyCodeLine{4 \textcolor{keyword}{class }\mbox{\hyperlink{class_platform}{Platform}}}
+\DoxyCodeLine{5 \{}
+\DoxyCodeLine{6 \textcolor{keyword}{public}:}
+\DoxyCodeLine{7     \mbox{\hyperlink{class_platform}{Platform}}(sf::Texture* texture, sf::Vector2f size, sf::Vector2f position);}
+\DoxyCodeLine{8     \mbox{\hyperlink{class_platform}{\string~Platform}}();}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{11     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_platform_a7b26c99c06289de6a4199377104fc262}{Draw}}(sf::RenderWindow\& window);}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{14     \mbox{\hyperlink{class_collider}{Collider}} \mbox{\hyperlink{class_platform_aaa32253cd12f04d72fc4566c2c98d904}{GetCollider}}() \{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_collider}{Collider}}(body); \}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{private}:}
+\DoxyCodeLine{17     sf::RectangleShape body;\textcolor{comment}{//Cia³o platformy}}
+\DoxyCodeLine{18 \};}
+\DoxyCodeLine{19 }
+
+\end{DoxyCode}

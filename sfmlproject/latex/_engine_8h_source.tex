@@ -1,0 +1,101 @@
+\hypertarget{_engine_8h_source}{}\doxysection{Engine.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <SFML\(\backslash\)Graphics.hpp>}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}Player.h"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}Platform.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}Map.h"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}Enemy.h"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}Bullet.h"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}EnemyBullet.h"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}Textures.h"{}}}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{class_engine}{Engine}}}
+\DoxyCodeLine{14 \{}
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16     \mbox{\hyperlink{class_engine}{Engine}}(\textcolor{keywordtype}{int} screenWidth, \textcolor{keywordtype}{int} screenHeight, std::string windowTitle);}
+\DoxyCodeLine{17     \mbox{\hyperlink{class_engine}{\string~Engine}}();}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_engine_aa148066fb0e87705e3f301c8178885a5}{init}}();}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{23     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_engine_a2d76ffe95073f4bffdc0a2d4a56918ac}{LoadTextures}}();\textcolor{comment}{//}}
+\DoxyCodeLine{25 \textcolor{comment}{}    \textcolor{keywordtype}{void} \mbox{\hyperlink{class_engine_a2a3fd516e201e12f55862203e7ae0553}{DrawMap}}();}
+\DoxyCodeLine{26     \textcolor{comment}{/*Zapobieganie rozci¹ganiu tekstur}}
+\DoxyCodeLine{27 \textcolor{comment}{    *@param window}}
+\DoxyCodeLine{28 \textcolor{comment}{    *  okno gry}}
+\DoxyCodeLine{29 \textcolor{comment}{    *@param view}}
+\DoxyCodeLine{30 \textcolor{comment}{    *  widok}}
+\DoxyCodeLine{31 \textcolor{comment}{    *}}
+\DoxyCodeLine{32 \textcolor{comment}{    */}}
+\DoxyCodeLine{33     \textcolor{keywordtype}{void} ResizeView(\textcolor{keyword}{const} sf::RenderWindow\& window, sf::View\& view);}
+\DoxyCodeLine{38     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_engine_af3e6ebc93435ec50cde54f9780026107}{PlayerShot}}(\mbox{\hyperlink{class_player}{Player}}\& player);}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_engine_af9eee446d9ca1a7ff1d812fc56125d94}{EnemyShot}}(\mbox{\hyperlink{class_enemy}{Enemy}}\& enemy);}
+\DoxyCodeLine{44     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_engine_a6c20290e07bbb450bfe62c2298b231dc}{Collisions}}(\mbox{\hyperlink{class_player}{Player}}\& player, \mbox{\hyperlink{class_enemy}{Enemy}}\& enemy);}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_engine_af595b9dc77d20aeb927bbad94c3f7bd0}{Interactions}}(\mbox{\hyperlink{class_player}{Player}}\& player);}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50 \textcolor{keyword}{private}:}
+\DoxyCodeLine{51     sf::RenderWindow window;\textcolor{comment}{//okno gry}}
+\DoxyCodeLine{52     sf::View view;\textcolor{comment}{//widok gry}}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54     \textcolor{keywordtype}{float} dt = 0.0f;\textcolor{comment}{//deltaTime}}
+\DoxyCodeLine{55     sf::Clock clock;}
+\DoxyCodeLine{56     sf::Time time;}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58     \textcolor{keywordtype}{bool} isFiring = \textcolor{keyword}{false};\textcolor{comment}{//ustawienie wartoœci która decyduje o tym czy w danym momencie gracz strzela}}
+\DoxyCodeLine{59     \textcolor{keywordtype}{bool} enemyisFiring = \textcolor{keyword}{false};\textcolor{comment}{//ustawienie wartoœci która decyduje o tym czy w danym momencie przeciwnik strzela}}
+\DoxyCodeLine{60     \textcolor{keywordtype}{int} hit = 0;\textcolor{comment}{//uderzenia przyjête przez gracza}}
+\DoxyCodeLine{61     \textcolor{keywordtype}{int} shootTimer = 0;\textcolor{comment}{//odpowiada za odstêp czasu miêdzy wykonaniem strza³u gracza}}
+\DoxyCodeLine{62     \textcolor{keywordtype}{int} enemyshootTimer = 0;\textcolor{comment}{//odpowiada za odstêp czasu miêdzy wykonaniem strza³u rywala}}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64     sf::Vector2f direction;\textcolor{comment}{//kierunek w którym odzia³owywuje kolizja}}
+\DoxyCodeLine{65     \textcolor{keywordtype}{int} coinCollected = 0;\textcolor{comment}{//zebrane monety}}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67     \textcolor{comment}{/*Tekstury wykorzystane w grze*/}}
+\DoxyCodeLine{68     sf::Texture background;}
+\DoxyCodeLine{69     sf::Texture background2;}
+\DoxyCodeLine{70     sf::Texture playerTexture;}
+\DoxyCodeLine{71     sf::Texture mapTexture;}
+\DoxyCodeLine{72     sf::Texture bounds;}
+\DoxyCodeLine{73     sf::Texture bulletTexture;}
+\DoxyCodeLine{74     sf::Texture enemyTexture;}
+\DoxyCodeLine{75     sf::Texture enemy1Texture;}
+\DoxyCodeLine{76     sf::Texture pokeballTexture;}
+\DoxyCodeLine{77     sf::Texture dzialkoTexture;}
+\DoxyCodeLine{78     sf::Texture winTexture;}
+\DoxyCodeLine{79     sf::Texture winScreenTexture;}
+\DoxyCodeLine{80     sf::Texture loseScreenTexture;}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82     \textcolor{comment}{/*banery w momencie wygranej i przegranej*/}}
+\DoxyCodeLine{83     sf::Sprite spriteWin;}
+\DoxyCodeLine{84     sf::Sprite spriteLose;}
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86     \textcolor{comment}{/*wektory przechowywuj¹ce poszczególne elementy planszy*/}}
+\DoxyCodeLine{87     std::vector<Platform> platforms;}
+\DoxyCodeLine{88     std::vector<Enemy> coins;}
+\DoxyCodeLine{89     std::vector<Enemy> doors;}
+\DoxyCodeLine{90     std::vector<Enemy> nextLevel;}
+\DoxyCodeLine{91     std::vector<Enemy> melees;}
+\DoxyCodeLine{92     std::vector<Enemy> shooters;}
+\DoxyCodeLine{93     std::vector<Map> maps;}
+\DoxyCodeLine{94     std::vector<Bullet> bullets;}
+\DoxyCodeLine{95     std::vector<EnemyBullet> enemyBullets;}
+\DoxyCodeLine{96     std::vector<Enemy> enemies;}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{98     \textcolor{comment}{/*tablice które odpowiadaj¹ za rysowanie naszej mapy*/}}
+\DoxyCodeLine{99     \textcolor{keywordtype}{int} scene[16][38];}
+\DoxyCodeLine{100     \textcolor{keywordtype}{int} scene2[16][11];}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{102     \textcolor{keywordtype}{int} screenWidth = 0;\textcolor{comment}{//szerokoœæ okna}}
+\DoxyCodeLine{103     \textcolor{keywordtype}{int} screenHeight = 0;\textcolor{comment}{//wysokoœc okna}}
+\DoxyCodeLine{104     std::string windowTitle;\textcolor{comment}{//nazwa okna}}
+\DoxyCodeLine{105 }
+\DoxyCodeLine{106 \};}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{108 }
+
+\end{DoxyCode}

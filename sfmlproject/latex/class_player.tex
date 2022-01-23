@@ -1,0 +1,91 @@
+\hypertarget{class_player}{}\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_a4f4eaf8b3b531796dda449605672e9ae}\label{class_player_a4f4eaf8b3b531796dda449605672e9ae}} 
+{\bfseries Player} (sf\+::\+Texture $\ast$texture, sf\+::\+Vector2u image\+Count, float switch\+Time, float speed, float jump\+Height)
+\item 
+void \mbox{\hyperlink{class_player_ae6b2acaf61aae4df8e10f50ebbdf664d}{Update}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_player_a0d41498328d141adc8a2c7b1ee505e20}{Set\+Position}} (float x, float y)
+\item 
+void \mbox{\hyperlink{class_player_a6a0b48c845f9c341283b5fc5a7898f9b}{Draw}} (sf\+::\+Render\+Window \&window)
+\item 
+void \mbox{\hyperlink{class_player_a07a06370f180cb06d901d0e1b563b8d1}{On\+Collision}} (sf\+::\+Vector2f direction)
+\item 
+\mbox{\Hypertarget{class_player_aaed2801fda29def04633d24e4271edc0}\label{class_player_aaed2801fda29def04633d24e4271edc0}} 
+sf\+::\+Vector2f {\bfseries Get\+Position} ()
+\item 
+\mbox{\Hypertarget{class_player_a6b513816e1bb0b1dcfe8fbaea3bfc93e}\label{class_player_a6b513816e1bb0b1dcfe8fbaea3bfc93e}} 
+float {\bfseries Get\+PositionX} ()
+\item 
+\mbox{\Hypertarget{class_player_a0ed37e2106002d4b5d53628582f69114}\label{class_player_a0ed37e2106002d4b5d53628582f69114}} 
+float {\bfseries Get\+PositionY} ()
+\item 
+\mbox{\Hypertarget{class_player_a0b19f4f3bd88d173c595f22e05aca264}\label{class_player_a0b19f4f3bd88d173c595f22e05aca264}} 
+\mbox{\hyperlink{class_collider}{Collider}} {\bfseries Get\+Collider} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_a6a0b48c845f9c341283b5fc5a7898f9b}\label{class_player_a6a0b48c845f9c341283b5fc5a7898f9b}} 
+\index{Player@{Player}!Draw@{Draw}}
+\index{Draw@{Draw}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void Player\+::\+Draw (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+Rysowanie gracza
+
+
+\begin{DoxyParams}{Parameters}
+{\em window} & okno gry \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a07a06370f180cb06d901d0e1b563b8d1}\label{class_player_a07a06370f180cb06d901d0e1b563b8d1}} 
+\index{Player@{Player}!OnCollision@{OnCollision}}
+\index{OnCollision@{OnCollision}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{OnCollision()}{OnCollision()}}
+{\footnotesize\ttfamily void Player\+::\+On\+Collision (\begin{DoxyParamCaption}\item[{sf\+::\+Vector2f}]{direction }\end{DoxyParamCaption})}
+
+Funkcja odpowiadaj¹ca za zachowanie obiektu w przypadku wyst¹pienia kolizji
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & kierunek w którym dzia³a kolizja \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_a0d41498328d141adc8a2c7b1ee505e20}\label{class_player_a0d41498328d141adc8a2c7b1ee505e20}} 
+\index{Player@{Player}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Player\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{float}]{x,  }\item[{float}]{y }\end{DoxyParamCaption})}
+
+Zapobieganie rozci¹ganiu tekstur
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & wspolrzedna x \\
+\hline
+{\em y} & wspolrzedna y \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_player_ae6b2acaf61aae4df8e10f50ebbdf664d}\label{class_player_ae6b2acaf61aae4df8e10f50ebbdf664d}} 
+\index{Player@{Player}!Update@{Update}}
+\index{Update@{Update}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Player\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+Aktualizacja pozycji gracza
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & delta\+Time \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Player.\+h\item 
+Player.\+cpp\end{DoxyCompactItemize}

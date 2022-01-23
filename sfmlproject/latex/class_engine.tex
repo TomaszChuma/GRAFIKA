@@ -1,0 +1,86 @@
+\hypertarget{class_engine}{}\doxysection{Engine Class Reference}
+\label{class_engine}\index{Engine@{Engine}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_engine_a057c1e7f9b373910f1b5e144c4817605}\label{class_engine_a057c1e7f9b373910f1b5e144c4817605}} 
+{\bfseries Engine} (int screen\+Width, int screen\+Height, std\+::string window\+Title)
+\item 
+int \mbox{\hyperlink{class_engine_aa148066fb0e87705e3f301c8178885a5}{init}} ()
+\item 
+void \mbox{\hyperlink{class_engine_a2d76ffe95073f4bffdc0a2d4a56918ac}{Load\+Textures}} ()
+\item 
+void \mbox{\hyperlink{class_engine_a2a3fd516e201e12f55862203e7ae0553}{Draw\+Map}} ()
+\item 
+\mbox{\Hypertarget{class_engine_a75e0b079bde4376f53277dce8f642dce}\label{class_engine_a75e0b079bde4376f53277dce8f642dce}} 
+void {\bfseries Resize\+View} (const sf\+::\+Render\+Window \&window, sf\+::\+View \&view)
+\item 
+void \mbox{\hyperlink{class_engine_af3e6ebc93435ec50cde54f9780026107}{Player\+Shot}} (\mbox{\hyperlink{class_player}{Player}} \&player)
+\item 
+void \mbox{\hyperlink{class_engine_af9eee446d9ca1a7ff1d812fc56125d94}{Enemy\+Shot}} (\mbox{\hyperlink{class_enemy}{Enemy}} \&enemy)
+\item 
+void \mbox{\hyperlink{class_engine_a6c20290e07bbb450bfe62c2298b231dc}{Collisions}} (\mbox{\hyperlink{class_player}{Player}} \&player, \mbox{\hyperlink{class_enemy}{Enemy}} \&enemy)
+\item 
+void \mbox{\hyperlink{class_engine_af595b9dc77d20aeb927bbad94c3f7bd0}{Interactions}} (\mbox{\hyperlink{class_player}{Player}} \&player)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_engine_a6c20290e07bbb450bfe62c2298b231dc}\label{class_engine_a6c20290e07bbb450bfe62c2298b231dc}} 
+\index{Engine@{Engine}!Collisions@{Collisions}}
+\index{Collisions@{Collisions}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{Collisions()}{Collisions()}}
+{\footnotesize\ttfamily void Engine\+::\+Collisions (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player}{Player}} \&}]{player,  }\item[{\mbox{\hyperlink{class_enemy}{Enemy}} \&}]{enemy }\end{DoxyParamCaption})}
+
+W tej funkcji ustalane s¹ regu³y kolizji miêdzy obiektami(czyli to co siê dzieje w przypadku ich wyst¹pienia) \mbox{\Hypertarget{class_engine_a2a3fd516e201e12f55862203e7ae0553}\label{class_engine_a2a3fd516e201e12f55862203e7ae0553}} 
+\index{Engine@{Engine}!DrawMap@{DrawMap}}
+\index{DrawMap@{DrawMap}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{DrawMap()}{DrawMap()}}
+{\footnotesize\ttfamily void Engine\+::\+Draw\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Rysowanie mapy \mbox{\Hypertarget{class_engine_af9eee446d9ca1a7ff1d812fc56125d94}\label{class_engine_af9eee446d9ca1a7ff1d812fc56125d94}} 
+\index{Engine@{Engine}!EnemyShot@{EnemyShot}}
+\index{EnemyShot@{EnemyShot}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{EnemyShot()}{EnemyShot()}}
+{\footnotesize\ttfamily void Engine\+::\+Enemy\+Shot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_enemy}{Enemy}} \&}]{enemy }\end{DoxyParamCaption})}
+
+Strza³ przeciwnika 
+\begin{DoxyParams}{Parameters}
+{\em enemy} & obiekt przeciwnika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_engine_aa148066fb0e87705e3f301c8178885a5}\label{class_engine_aa148066fb0e87705e3f301c8178885a5}} 
+\index{Engine@{Engine}!init@{init}}
+\index{init@{init}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily int Engine\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Inicjalizacja silnika gry \mbox{\Hypertarget{class_engine_af595b9dc77d20aeb927bbad94c3f7bd0}\label{class_engine_af595b9dc77d20aeb927bbad94c3f7bd0}} 
+\index{Engine@{Engine}!Interactions@{Interactions}}
+\index{Interactions@{Interactions}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{Interactions()}{Interactions()}}
+{\footnotesize\ttfamily void Engine\+::\+Interactions (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player}{Player}} \&}]{player }\end{DoxyParamCaption})}
+
+Zawiera warunki dotycz¹ce regu³ gry \mbox{\Hypertarget{class_engine_a2d76ffe95073f4bffdc0a2d4a56918ac}\label{class_engine_a2d76ffe95073f4bffdc0a2d4a56918ac}} 
+\index{Engine@{Engine}!LoadTextures@{LoadTextures}}
+\index{LoadTextures@{LoadTextures}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{LoadTextures()}{LoadTextures()}}
+{\footnotesize\ttfamily void Engine\+::\+Load\+Textures (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+£adowanie tekstur \mbox{\Hypertarget{class_engine_af3e6ebc93435ec50cde54f9780026107}\label{class_engine_af3e6ebc93435ec50cde54f9780026107}} 
+\index{Engine@{Engine}!PlayerShot@{PlayerShot}}
+\index{PlayerShot@{PlayerShot}!Engine@{Engine}}
+\doxysubsubsection{\texorpdfstring{PlayerShot()}{PlayerShot()}}
+{\footnotesize\ttfamily void Engine\+::\+Player\+Shot (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player}{Player}} \&}]{player }\end{DoxyParamCaption})}
+
+Strza³ gracza 
+\begin{DoxyParams}{Parameters}
+{\em player} & obiekt gracza \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Engine.\+h\item 
+Engine.\+cpp\end{DoxyCompactItemize}
