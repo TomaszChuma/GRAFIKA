@@ -2,7 +2,6 @@
 
 #include <SFML/Graphics.hpp>
 #include "Collision.h"
-#include "Animation.h"
 
 class Player
 {

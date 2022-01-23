@@ -82,10 +82,6 @@ int Engine::init() {
 
 		window.clear(sf::Color(53, 122, 171));
 
-		for (Map& map : maps)
-		{
-			map.Draw(window);
-		}
 
 		window.setView(view);
 		player.Draw(window);
