@@ -26,6 +26,14 @@ int Engine::init() {
 	sf::RenderWindow window(sf::VideoMode(800.0f, VIEW_HEIGHT), "XD");
 	View view(sf::Vector2f(0.0f, 0.0f), Vector2f(800.0f, VIEW_HEIGHT));
 
+	sf::SoundBuffer buffer;
+	if (!buffer.loadFromFile("POKEMON.wav"))
+		return -1;
+
+	sf::Sound sound;
+	sound.setBuffer(buffer);
+	sound.play();
+
 	LoadTextures();
 	DrawMap();
 
